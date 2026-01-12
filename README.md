@@ -18,16 +18,16 @@ I enjoy playing/watching sports (basketball and soccer), journaling, good food, 
 ### Experience
 CSU Mathematics Department | Undergraduate Research Assistant	Oct 2025 - Jan 2026 \
 Conveyed mathematical tools to model image texture in satellite data to assist atmospheric scientists. \
-Utilized mathematical modeling to contribute to the Collaborations in Artificial Intelligence and Geosciences grant. \
+Utilized mathematical modeling to contribute to the Collaborations in Artificial Intelligence and Geosciences grant. 
 
 Illinois Tech SURE 2025 | Undergraduate Research Fellow REU	Jun 2025 - Aug 2025 \
 Optimized model parameters in a spatial-temporal point process model to predict traffic accidents. \
-Feature extraction using dimension reductions on time series data for congruent model input. \
+Feature extraction using dimension reductions on time series data for congruent model input. 
 
 CSU Division of IT | Cybersecurity Intern 	 Jan 2024 - Feb 2025 \
 Analyzed security alerts and contributed to comprehensive reporting efforts, using time series analysis. \
-Prepared and employed Nessus scanner with admin privileges on network to scan assigned colleges’ networks weekly, ensuring network security within colleges at CSU. \
+Prepared and employed Nessus scanner with admin privileges on network to scan assigned colleges’ networks weekly, ensuring network security within colleges at CSU. 
 
 CSU Statistics Department | Undergraduate Research Fellow 	 May 2024 - July 2024 \
 Created data pipeline of cancer cell lines using data wrangling skills in R studio to prepare data for analysis. \
-Reported summary analysis on missing data and imputation reliability for biomarkers. \
+Reported summary analysis on missing data and imputation reliability for biomarkers. 
