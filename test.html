@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mussa Hassen | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Inter', 'Times New Roman', Times, serif;
+            margin: 0;
+            display: flex;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #5c4f6d;
+            color: white;
+            position: fixed;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: #ecf0f1;
+            border-bottom: 2px solid #2e0739;
+            padding-bottom: 10px;
+        }
+
+        .sidebar nav a {
+            font-family: 'Inter', sans-serif;
+            color: #9ecbe8;
+            text-decoration: none;
+            display: block;
+            padding: 6px 0;
+            transition: 0.5s;
+        }
+
+        .sidebar nav a:hover {
+            color: #3498db;
+            padding-left: 10px;
+        }
+
+        /* Main Content Styling */
+        .main-content {
+            margin-left: 290px; /* Sidebar width + padding */
+            padding: 40px;
+            max-width: 80ch;
+        }
+
+        p {
+            text-align: justify;
+            text-justify: inter-word; /* Makes the spacing look natural */
+            margin-bottom: 1.5rem;   /* Adds nice breathing room between paragraphs */
+        }
+
+        h2 { color: #2c3e50; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .experience-item { margin-bottom: 20px; }
+        .date { color: #7f8c8d; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Mussa Hassen</h2>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Key Projects</a>
+            <a href="#datascience">Data Science</a>
+            <a href="#awards">Awards</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi I'm Mussa Hassen, an undergraduate student in the field of Data Science, at Colorado State University. I am specializing in mathematics of data science and machine learning. I am fortunate to be mentored by <a class="ref-link" href="https://www.math.colostate.edu/~king/">Dr. Emily J. King</a>.</p>
+            <h4>Interests</h4>
+            <p>Recent courses that I have enjoyed include: <em>Optimization Methods in Data Science, Statistical Machine Learning, and Abstract Algebra.</em> I am looking forward to Advanced Calculus, Inferential Reasoning, and Linear Algebra II.</p>
+            <p>I've participated in various research projects as an undergraduate research assistant. My research interest are fairly broad, but recently I've been looking at Interpretable AI (with emphasis on feature extraction or feature engineering); Applied Math (Mathematical modeling, Operations research [or systems engineering]); Experiment design (statistical modeling); Causal inference and more.</p>
+            <h4>Outside of research</h4>
+            <p>I had an early obsession with Legos; I rarely followed the manual (sometimes made my own). I thought I should dedicate my life to legos up until I got introduced to video games, sports, and life problems. In my free time, I enjoy playing/watching sports (basketball and soccer), journaling, good food, and casual walks. I'm interested in reading interdisciplinary approaches to dialectics of philosophical and social concepts.</p>
+            <br>
+        </section>
+
+        <section id="projects">
+            <h2>Recent Projects</h2>
+            <p>Haralick Features. Preliminary work assisting research in AI for atmospheric science. Analyzing and characterising Haralick features for Interpretable AI. <a class="project-link" href="https://github.com/mussahassen/GLCM-Features">Link Here</a></p>
+            <p>Machine learning on bank data. A final project for a course in machine learning. Assessing machine learning models for classification to optimize the bank's client outreach. <a class="project-link" href="https://github.com/dsci445-csu/project-6">Link Here</a></p>
+            <p>Abstract Algebra. A cheat sheet for an introductory course on abstract algebra with cool visuals and proofs in Lean 4. <a class="project-link" href="https://github.com/mussahassen/Abstract-Algebra">Link Here</a></p>
+
+            <br> 
+        </section>
+
+        <section id="datascience">
+            <h2>Data Science to Me is...</h2>
+            <p>There are many ways to model and further understand the systems of real-world problems using mathematical models.  </p>
+            <p>The systems we may (not) see in our lives, from the growth of a species population, to effectiveness of a policy or an advertisement; or testing a new drug, can be modeled by  ubiquitous mathematical/statistical frameworks. For example differential equations: </p>
+            <ul>
+                <li>A model developed by Alfred Lotka and Vito Volterra in the 1920s, uses a pair of first-order nonlinear differential equations to describe how a predator and its prey, interact over time.</li>
+                <li> The Susceptible-Infected-Recovered model, developed by William Ogilvy Kermack and Anderson Gray McKendrick, is the cornerstone of modern epidemiology. It puts a population into three compartments. Then it uses equations to track how individuals move between them based on the infection and recovery rates.</li>
+                <li>Even a simpler example, regression: when testing a new drug, researchers use ANOVA to determine the relationship between the dosage and the physiological effect.</li>
+            </ul>
+            <p>and so much more. How these functions and operations came about to model such "Deterministic Chaos" in these systems we often overlook, is what I'm intrigued by. </p>
+            <br>
+        </section>
+
+        <section id="awards">
+            <h2>Awards</h2>
+            <ul>
+                <li>Dean's List. CSU College of Natural Sciences </li>
+                <li>2025 Undergraduate Exellence in Research Award. CSU Department of Statistics </li>
+                <li>Thomas and Judith Sneider Research Excellence Scholarship</li>
+            </ul>
+            
+            <br>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: mussa [dot] hassen [at] colostate [dot] edu</p>
+            <p>Find me on:</p>
+            <ul>
+                <li>Github: </li>
+                <li>Twitter: </li>
+                <li>Medium: </li>
+            </ul>
+            <br> </br>
+            <br> </br>
+        </section>
+    </div>
+
+</body>
+</html>
