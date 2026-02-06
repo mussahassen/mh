@@ -108,6 +108,26 @@
                 display: block;
             }
         }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999; /* Just below sidebar */
+        }
+
+        .overlay.active {
+            display: block;
+        }
+
+        /* Ensure sidebar is always on top */
+        .sidebar {
+            z-index: 1000;
+        }
     </style>
 </head>
 <body>
@@ -115,7 +135,7 @@
     <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
 
 
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <h2>Mussa Hassen</h2>
         <nav>
             <a href="#about">About Me</a>
@@ -186,15 +206,22 @@
         </section>
     </div>
 
+    <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+
     <script>
         function toggleMenu() {
             const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
             const btn = document.querySelector('.menu-toggle');
-            sidebar.classList.toggle('active');
             
+            // Toggle the 'active' class on both sidebar and overlay
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+            
+            // Update button text
             btn.innerHTML = sidebar.classList.contains('active') ? '✕ Close' : '☰ Menu';
         }
-    
+
         // Close sidebar when a link is clicked
         document.querySelectorAll('.sidebar nav a').forEach(link => {
             link.addEventListener('click', () => {
